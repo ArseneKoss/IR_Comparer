@@ -181,7 +181,7 @@ if len(file_names)==1:
 for file_name in file_names:
     
     # Extracting convergence info, energies, calculation time and rotational constants from output file
-    if file_name[-4:]=='.out' and orca: 
+    if file_name[-4:]=='.out': 
 
         log = file_name[:-4]
         file_path = dir_path + '/' + file_name
